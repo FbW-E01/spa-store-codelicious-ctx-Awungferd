@@ -4,7 +4,7 @@ import { ThemeContext } from "../contexts/ThemeContext";
 
 export default function Heading() {
     const { user } = useContext(UserContext);
-    const {theme, setTheme}=useContext(ThemeContext)
+    const {setTheme}=useContext(ThemeContext)
 
     return (
         <div className="heading">
