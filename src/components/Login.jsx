@@ -11,12 +11,12 @@ function Login() {
     function doLogin(e) {
         e.preventDefault();
 
-        if (email !== "joel@example.org") {
+        if (email !== "test@test.com") {
             alert("Invalid email");
             return;
         }
 
-        setUser({ id: 1, email, name: "Joel Nenotlep", role: "admin" });
+        setUser({ id: 1, email, name: "Awasum Peter", role: "admin" });
     }
 
     return (
